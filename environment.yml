@@ -1,0 +1,14 @@
+name: environment
+channels:
+  - defaults
+  - pytorch
+dependencies:
+  - pytorch
+  - cudatoolkit=11.3
+  - torchvision
+  - python=3.8
+  - pip
+  - pip: 
+    - timm
+    - numpy
+    - continuum
